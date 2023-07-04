@@ -21,3 +21,20 @@ Output data: tables and figures in the main text.
 
 Input data: data used evaluation (sales_panel.csv).
 Output data: tables and figures in the appendices.
+
+
+Variable dictionary
+
+Computed scores:
+  - pe_score: product engagement score
+  - p_score: product score
+  - e_score: engagement score
+
+Product characteristics:
+  - price: the actual price of the product in RMB
+  - discount: the amount of discount in RMB, price + discount is the listed/original price
+  - category: which category is the product in
+  - search: Baidu search index of the product
+
+Influencer characteristics:
+  - 
