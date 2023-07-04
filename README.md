@@ -20,7 +20,7 @@ Output data: tables and figures in the main text.
 4. Robustness checks
 
 Input data: data used evaluation (sales_panel.csv).
-Output data: tables and figures in the appendices.
+Output data: tables and figures in the appendices.\\
 
 
 Variable dictionary
