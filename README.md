@@ -1,6 +1,6 @@
 # engagement_that_sells
 
-The code contains 6 Jupyter notebooks in R, each performing a main subtask. Data is stored in tiktok.RData. *To-do: add notebooks in Python.*
+The code contains 6 Jupyter notebooks in R, each performing a main subtask. Data is stored in tiktok.RData. *To-do: add Python notebooks on model training.*
 
 1. Summary statistics
 
