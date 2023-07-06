@@ -23,17 +23,18 @@ Output data: evaluation tables and figures in the main text.
 4. Appendix F: additional summary statistics
 
 Input data: data used evaluation (model_evaluation).
-Output data: tables and figures in appendix F.
+Output data: tables and figures in Appendix F.
 
 5. Appendix H: robustness checks
 
 Input data: data used evaluation (model_evaluation, search).
-Output data: tables and figures in appendix H.
+Output data: tables and figures in Appendix H.
 
-5. Appendix I: additional analysis on drivers
+5. Appendix I: additional analysis of drivers
 
-*To-do: update the notebook* \\
+*To-do: update the notebook* 
 
+<br/><br/>
 
 Variable dictionary
 
