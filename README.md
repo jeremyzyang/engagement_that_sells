@@ -32,7 +32,7 @@ Output data: tables and figures in Appendix F.
 Input data: data used for model evaluation (model_evaluation, search). <br/>
 Output data: tables and figures in Appendix H.
 
-5. Appendix I: additional analysis of drivers
+6. Appendix I: additional analysis of drivers
 
 *To-do: update the notebook* 
 
