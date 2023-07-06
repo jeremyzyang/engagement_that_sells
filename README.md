@@ -1,26 +1,38 @@
 # engagement_that_sells
 
-The code contains X Jupyter notebooks in R, each performing a main subtask. 
+The code contains 6 Jupyter notebooks in R, each performing a main subtask. Data is stored in tiktok.RData. *To-do: add notebooks in Python.*
 
 1. Summary statistics
 
-Input data: data used for model construction (model_construction.csv) and evaluation (sales_panel.csv).
-Output data: summary statistics reported in the paper.
+Input data: data used for model construction (model_construction) and evaluation (model_evaluation, search).
+Output data: summary statistics reported in the main text.
 
-2. Model training
-
+<!-- 2. Model training
 Input data: data used for model construction (model_construction.csv) and raw video data.
-Output data: model performance. 
+Output data: model performance.  -->
 
-4. Main evaluation results
+2. Main evaluation results
 
-Input data: data used evaluation (sales_panel.csv).
-Output data: tables and figures in the main text.
+Input data: data used evaluation (model_evaluation, search).
+Output data: evaluation tables and figures in the main text.
 
-4. Robustness checks
+3. Drivers of pe-score
 
-Input data: data used evaluation (sales_panel.csv).
-Output data: tables and figures in the appendices.\\
+*To-do: update the notebook*
+
+4. Appendix F: additional summary statistics
+
+Input data: data used evaluation (model_evaluation).
+Output data: tables and figures in appendix F.
+
+5. Appendix H: robustness checks
+
+Input data: data used evaluation (model_evaluation, search).
+Output data: tables and figures in appendix H.
+
+5. Appendix I: additional analysis on drivers
+
+*To-do: update the notebook* \\
 
 
 Variable dictionary
@@ -31,10 +43,18 @@ Computed scores:
   - e_score: engagement score
 
 Product characteristics:
+  - rev: 30-day sales revenue
+  - rev_day: imputed daily sales revenue
   - price: the actual price of the product in RMB
   - discount: the amount of discount in RMB, price + discount is the listed/original price
   - category: which category is the product in
   - search: Baidu search index of the product
+  - avg_search: Baidu search index of the product averaged over time
 
 Influencer characteristics:
-  - 
+  - gender: influencer gender
+  - fans: number of followers
+  - avg_play: average number of plays of an influencer's videos
+  - influencer_price: the average price charged by an influencer for an ad
+  - expected_cpm: expected cost per thousand views
+  - order_cnt: number of video ads an influencer has posted
