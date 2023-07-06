@@ -13,7 +13,7 @@ Output data: model performance.  -->
 
 2. Main evaluation results
 
-Input data: data used evaluation (model_evaluation, search). <br/>
+Input data: data used for model evaluation (model_evaluation, search). <br/>
 Output data: evaluation tables and figures in the main text.
 
 3. Drivers of pe-score
@@ -22,19 +22,19 @@ Output data: evaluation tables and figures in the main text.
 
 4. Appendix F: additional summary statistics
 
-Input data: data used evaluation (model_evaluation). <br/>
+Input data: data used for model evaluation (model_evaluation). <br/>
 Output data: tables and figures in Appendix F.
 
 5. Appendix H: robustness checks
 
-Input data: data used evaluation (model_evaluation, search). <br/>
+Input data: data used for model evaluation (model_evaluation, search). <br/>
 Output data: tables and figures in Appendix H.
 
 5. Appendix I: additional analysis of drivers
 
 *To-do: update the notebook* 
 
-<br/><br/>
+<br/>
 
 Variable dictionary
 
