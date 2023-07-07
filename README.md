@@ -7,6 +7,8 @@ Update:
   - notebook 4: deleted, content moved to notebook 1
   - notebook 5: renamed to robustness check
   - notebook 6: deleted, content moved to notebook 3
+  - updated paper draft
+  - updated tiktok.RData
   
 The code contains 4 Jupyter notebooks in R, each performing a main subtask. *To-do: add Python notebooks on model training.* <br/>
 
