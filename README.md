@@ -2,6 +2,7 @@
 
 Update: 
   - notebook 1: added figure 2 and A.4; moved figures in notebook 4 here
+  - notebook 2: added results on incentive alignment
   - notebook 3: added figures 5,6; moved figures in notebook 6 here 
   - notebook 4: deleted, content moved to notebook 1
   - notebook 5: renamed to robustness check
