@@ -1,13 +1,20 @@
 # engagement_that_sells
 
-The code contains 6 Jupyter notebooks in R, each performing a main subtask. *To-do: add Python notebooks on model training.* <br/>
+Update: 
+  - notebook 1: added figure 2 and A.4; moved figures in notebook 4 here
+  - notebook 3: added figures 5,6; moved figures in notebook 6 here 
+  - notebook 4: deleted, content moved to notebook 1
+  - notebook 5: renamed to robustness check
+  - notebook 6: deleted, content moved to notebook 3
+  
+The code contains 4 Jupyter notebooks in R, each performing a main subtask. *To-do: add Python notebooks on model training.* <br/>
 
 Data is stored in tiktok.RData. 
 
 1. Summary statistics
 
 Input data: data used for model construction (model_construction) and evaluation (model_evaluation, search). <br/>
-Output data: summary statistics reported in the main text.
+Output data: summary statistics reported in the main text and Appendix F.
 
 <!-- 2. Model training
 Input data: data used for model construction (model_construction.csv) and raw video data.
@@ -20,21 +27,13 @@ Output data: evaluation tables and figures in the main text.
 
 3. Drivers of pe-score
 
-*To-do: update the notebook*
+Input data: <br/>
+Output data:
 
-4. Appendix F: additional summary statistics
-
-Input data: data used for model evaluation (model_evaluation). <br/>
-Output data: tables and figures in Appendix F.
-
-5. Appendix H: robustness checks
+4. Robustness checks
 
 Input data: data used for model evaluation (model_evaluation, search). <br/>
 Output data: tables and figures in Appendix H.
-
-6. Appendix I: additional analysis of drivers
-
-*To-do: update the notebook* 
 
 <br/>
 
