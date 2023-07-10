@@ -58,7 +58,7 @@ Data frames:
       - pe_score_like: product engagement score constructed from engagement heatmaps trained on likes
       - pe_score_comment: product engagement score constructed from engagement heatmaps trained on comments
       - pe_score_unsup: product engagement scores constructed from unsupervised engagement heatmaps
-    -product characteristics:
+    - product characteristics:
       - taobao_id: product ids
       - rev: 30-day sales revenue
       - rev_day: imputed daily sales revenue
