@@ -30,9 +30,8 @@ Output data: tables and figures in Appendix H.
 
 <br/>
 
-Variable dictionary
+Data frame and variable dictionary
 
-Data frames:
   - e_space: engagement scores over space
   - e_time: engagement scores over time
   - p_space: product scores over time
