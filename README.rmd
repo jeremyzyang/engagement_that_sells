@@ -1,4 +1,4 @@
-1.  **List of codes**
+1.  List of codes
 
 The code contains 11 scripts in Python or R divided into construction
 (scripts 1-5), evaluation (scripts 6-7), and interpretation (scripts
@@ -6,10 +6,10 @@ The code contains 11 scripts in Python or R divided into construction
 The main results reported in the paper and online appendices can be
 reproduced from scripts 6, 7, and 11.
 
-2.  **List of data frames in tiktok.RData**
+2.  List of data frames in tiktok.RData
 
   -----------------------------------------------------------------------
-  **Name**             **Description**
+  Name                 Description
   -------------------- --------------------------------------------------
   activity             Activities detected by the I3D algorithm and their
                        association with engagement scores
@@ -45,14 +45,14 @@ reproduced from scripts 6, 7, and 11.
   search               Baidu search index
   -----------------------------------------------------------------------
 
-3.  **Variable dictionary**
+3.  Variable dictionary
 
-**"activity"**
+"activity"
 
 Each observation is at activity level.
 
   -----------------------------------------------------------------------------
-  **Variable**   **Description**
+  Variable       Description
   -------------- --------------------------------------------------------------
   Estimate       The association between the probability of an activity with
                  engagement score at video-segment (15 seconds) level
@@ -66,63 +66,63 @@ Each observation is at activity level.
   act            Name of the activity
   -----------------------------------------------------------------------------
 
-**"e_space"**
+"e_space"
 
 A 224 x 224 matrix of engagement scores at each pixel location averaged
 over all videos.
 
-**"e_time"**
+"e_time"
 
 Each observation is at video-second level.
 
   -----------------------------------------------------------------------
-  **Variable**   **Description**
+  Variable       Description
   -------------- --------------------------------------------------------
   time           Time in second
 
   value          Average engagement score at that time point
   -----------------------------------------------------------------------
 
-**"p_space"**
+"p_space"
 
 A 224 x 224 matrix of product scores at each pixel location averaged
 over all videos.
 
-**"p_time"**
+"p_time"
 
 Each observation is at video-second level.
 
   -----------------------------------------------------------------------
-  **Variable**    **Description**
+  Variable        Description
   --------------- -------------------------------------------------------
   time            Time in second
 
   value           Average product score at that time point
   -----------------------------------------------------------------------
 
-**"pe_space"**
+"pe_space"
 
 A 224 x 224 matrix of product engagement scores at each pixel location
 averaged over all videos.
 
-**"pe_time"**
+"pe_time"
 
 Each observation in this data file is at video-second level.
 
   -------------------------------------------------------------------------
-  **Variable**   **Description**
+  Variable       Description
   -------------- ----------------------------------------------------------
   time           Time in second
 
   value          Average product engagement score at that time point
   -------------------------------------------------------------------------
 
-**"emotion"**
+"emotion"
 
 Each observation in this data file is at video-frame level.
 
   -----------------------------------------------------------------------
-  **Variable**      **Description**
+  Variable          Description
   ----------------- -----------------------------------------------------
   video_id          Video ID
 
@@ -145,12 +145,12 @@ Each observation in this data file is at video-frame level.
   enga_score        Average pixel-level engagement score
   -----------------------------------------------------------------------
 
-**"loss"**
+"loss"
 
 Each observation is at epoch level.
 
   -----------------------------------------------------------------------
-  **Variable**       **Description**
+  Variable           Description
   ------------------ ----------------------------------------------------
   epoch              Epoch number
 
@@ -159,12 +159,12 @@ Each observation is at epoch level.
   Validation Loss    Validation loss (mean absolute percentage error)
   -----------------------------------------------------------------------
 
-**"model_construction"**
+"model_construction"
 
 Each observation is at video level.
 
   -----------------------------------------------------------------------
-  **Variable**   **Description**
+  Variable       Description
   -------------- --------------------------------------------------------
   like           Number of likes received by the video
 
@@ -173,12 +173,12 @@ Each observation is at video level.
   share          Number of shares received by the video
   -----------------------------------------------------------------------
 
-**"model_evaluation"**
+"model_evaluation"
 
 Each observation is at product/video-day level.
 
   ----------------------------------------------------------------------------
-  **Variable**        **Description**
+  Variable            Description
   ------------------- --------------------------------------------------------
   video_id            Video ID
 
@@ -253,12 +253,12 @@ Each observation is at product/video-day level.
   category            Category of the product
   ----------------------------------------------------------------------------
 
-**"object"**
+"object"
 
 Each observation is at object level.
 
   ----------------------------------------------------------------------------
-  **Variable**   **Description**
+  Variable       Description
   -------------- -------------------------------------------------------------
   object         Object detected by the YOLO algorithm
 
@@ -270,12 +270,12 @@ Each observation is at object level.
                  high-engagement pixels and low-engagement pixels
   ----------------------------------------------------------------------------
 
-**"own"**
+"own"
 
 Each observation is at video level.
 
   --------------------------------------------------------------------------
-  **Variable**   **Description**
+  Variable       Description
   -------------- -----------------------------------------------------------
   video_id       Video ID
 
@@ -296,12 +296,12 @@ Each observation is at video level.
   discount       Product price discount (in RMB)
   --------------------------------------------------------------------------
 
-**"search"**
+"search"
 
 Each observation is at product-day level.
 
   -----------------------------------------------------------------------
-  **Variable**                   **Description**
+  Variable                       Description
   ------------------------------ ----------------------------------------
   taobao_id                      Product ID
 
