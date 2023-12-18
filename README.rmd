@@ -201,7 +201,7 @@ Each observation is at product/video-day level.
   len                 Length of the video in second
 
   e_score             Engagement score constructed by the number of shares
-                      (normalized to the interval of \[0, 1\])
+                      (normalized to the interval of [0, 1])
 
   e_score_like        Engagement score constructed by the number of likes
 
@@ -211,18 +211,18 @@ Each observation is at product/video-day level.
                       approach
 
   p_score             Product score of the video (normalized to the interval
-                      of \[0, 1\])
+                      of [0, 1])
 
-  pe_score            PE-score (normalized to the interval of \[0, 1\])
+  pe_score            PE-score (normalized to the interval of [0, 1])
 
   pe_score_like       PE-score constructed by the number of likes (normalized
-                      to the interval of \[0, 1\])
+                      to the interval of [0, 1])
 
   pe_score_comment    PE-score constructed by the number of comments
-                      (normalized to the interval of \[0, 1\])
+                      (normalized to the interval of [0, 1])
 
   pe_score_unsup      PE-score constructed using an unsupervised approach
-                      (normalized to the interval of \[0, 1\])
+                      (normalized to the interval of [0, 1])
 
   influencer_id       Influencer ID
 
