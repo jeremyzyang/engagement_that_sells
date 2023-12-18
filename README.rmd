@@ -107,7 +107,7 @@ averaged over all videos.
 
 "pe_time"
 
-Each observation in this data file is at video-second level.
+Each observation is at video-second level.
 
   -------------------------------------------------------------------------
   Variable       Description
@@ -119,7 +119,7 @@ Each observation in this data file is at video-second level.
 
 "emotion"
 
-Each observation in this data file is at video-frame level.
+Each observation is at video-frame level.
 
   -----------------------------------------------------------------------
   Variable          Description
