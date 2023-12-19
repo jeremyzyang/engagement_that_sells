@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# The code is based on a blog post by Jason Brownlee (https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/)
+
 # In[1]:
 
 
