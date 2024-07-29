@@ -6,7 +6,7 @@ The code contains 11 scripts in Python or R divided into construction
 The main results reported in the paper and online appendices can be
 reproduced from scripts 6, 7, and 11.
 
-2.  List of data frames in tiktok.RData
+2.  List of data frames in replication.RData
 
   -----------------------------------------------------------------------
   Name                 Description
@@ -166,6 +166,8 @@ Each observation is at video level.
   -----------------------------------------------------------------------
   Variable       Description
   -------------- --------------------------------------------------------
+  video_id       Video ID 
+
   like           Number of likes received by the video
 
   comment        Number of comments received by the video
