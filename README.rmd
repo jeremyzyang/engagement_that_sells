@@ -1,6 +1,6 @@
 The algoirthm is registered under MIT License Case No. 25019. 
 
-The code listed below is solely for academic and/or internal research purposes. Please see the Internal Research End User Agreement for Academic and other Non-Profit Research Institutions for details. Any requests should be sent to mksc.pe.replication@gmail.com with a copy of signed agreement.
+The code and data is solely for academic and/or internal research purposes. Please see the Internal Research End User Agreement for Academic and other Non-Profit Research Institutions for details. Any requests should be sent to mksc.pe.replication@gmail.com with a copy of signed agreement.
 
 1.  List of code
 
